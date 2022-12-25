@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include<SPI.h>
 
-char buff[]="Hello Slave\n";
+char buff[]="Hello Peripheral\n";
 
 void setup() {
   Serial.begin(115200); /* begin serial with 9600 baud */
